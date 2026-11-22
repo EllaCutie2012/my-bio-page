@@ -1,0 +1,83 @@
+
+body {
+    background-color:#EE82EE ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile Card Container */
+.bio-card {
+    background-color:#FAAFBA ;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Profile Picture */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Name */
+h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    color: #666666;
+    font-size: 16px;
+}
+
+/* Sections */
+.about,
+.hobbies {
+    background-color: #FAAFBA;
+    width: 400px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+/* Section headings */
+h2 {
+    color: #3875cf;
+}
+
+/* Hobbies */
+ul {
+    text-align: left;
+    color: white;
+}
+
+/* Social Links */
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    background-color: #FAAFBA;
+    color: #3875cf;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #e0eaff;
+}
